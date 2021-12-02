@@ -9,7 +9,9 @@
     <title>WeatherApp</title>
 </head>
 <div class="container">
+    <div class="weather-app-wrapper">
     <div class="weather-app">
+        <div class="overview">
 <h1>
     Varaždin
 </h1>
@@ -23,7 +25,12 @@
 </ul>
 <div class="row">
     <div class="col-md-6">
-        12°C °F
+        <div class="clearfix weather-temperature">
+        <img src="https://ssl.gstatic.com/onebox/weather/64/rain.png" alt="rain" class="float-left"/>
+         <div class="float-left">
+         <strong>12</strong><small class="units">°C °F</small>
+         </div>
+       </div>
     </div>
     <div class="col-md-6">
         <ul>
@@ -38,6 +45,8 @@
             </li>
         </ul>
     </div>
+    </div>
+</div>
 </div>
 <small>
     <a href="https://github.com/nivesb13/vanilla-weather-search">Open-source code</a>
